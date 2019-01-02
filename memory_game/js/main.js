@@ -1,16 +1,14 @@
-console.log("Up and running!");
-var cardOne = "queen";
-var cardTwo = "queen";
+console.log("Up and running!");
 
 
 var cards = [ "queen", "queen", "king", "king" ];
 var cardsInPlay =[];
+										//cards[] = cards[cardId]
+var flipCard = function(cardId) {
 
-var cardOne = cards[0];
-var cardTwo = cards[1];
-
-cardsInPlay.push(cardOne);
-cardsInPlay.push(cardTwo);
+	cardsInPlay.push(cards[cardId]);  //solve: 1- move it befor flipCard function . 2- use alternative https://stackoverflow.com/questions/4156101/push-array-items-into-another-array 
+												// 3- chang to [cardId] or cardId									// or https://www.hostingadvice.com/how-to/javascript-add-to-array/#push
+console.log("User flipped" + cards[cardId])
 
 if (cardsInPlay.length === 2)
 {
@@ -25,8 +23,7 @@ if (cardsInPlay.length === 2)
 	 }
 }
 
+}  // put ;
 
-console.log("User flipped " + cardOne);
-console.log("User flipped " + cardTwo);
- // console.log(cardOne);
- // console.log(cardTwo);
+flipCard(0);
+flipCard(2);
