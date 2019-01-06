@@ -1,15 +1,14 @@
-body {/*font-family: 'Shadows Into Light', cursive;
-
-font-family: 'Dosis', sans-serif;
+body {
 font-family: 'Indie Flower', cursive;
-font-family: 'Major Mono Display', monospace;
-font-family: 'Dancing Script', cursive;
-*/
+font-weight: bold;
+font-size: large;
 text-align: center;
 margin: 0;
 }
 
-/*link / anchors problem in the nav : no hover and there is 2 atruboit*/ */
+
+
+/*link / anchors problem in the nav : no hover and there is 2 atruboit */
 .navLinks { border-bottom: 2px solid transparent;
 	color:#fff; }
 
@@ -26,6 +25,7 @@ nav a:hover {
 }
 header
 {
+	font-weight: bold;
 	background: #F15B31;
 	color : #FFFFFF ;
 	padding :30px 20px 30px 20px;
@@ -33,6 +33,7 @@ header
 }
 h1{
 	margin :0;
+	font-weight: bold;
 }
 
 nav{
